@@ -27,7 +27,7 @@ export default class LoginForm extends Component{
 		}
 
         else {
-          	this.setState({validationText: "LOGGED"});  
+          	this.props.navigation.navigate('Stack');
 		}
 	}
 
